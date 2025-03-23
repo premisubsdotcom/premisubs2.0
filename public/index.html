@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>premisubs.com</title>
+  <link rel="icon" href="https://premisubsdotcom.vercel.app/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main">
+    <!-- PREMISUBS Link -->
+    <a href="https://premisubs.com" target="_blank" id="premisubs-link">PREMISUBS</a>
+    
+    <div class="login-container">
+      <h2>Telegram Login</h2>
+      <div id="step1">
+        <input
+          type="text"
+          id="chatId"
+          placeholder="Enter Telegram Chat ID"
+          maxlength="10"
+          oninput="this.value=this.value.replace(/\D/g, '')">
+        <button id="getOtp">Get OTP</button>
+      </div>
+      <div id="step2" style="display:none;">
+        <input
+          type="text"
+          id="otp"
+          placeholder="Enter OTP"
+          maxlength="6"
+          oninput="this.value=this.value.replace(/\D/g, '')">
+        <button id="verifyOtp">Login</button>
+      </div>
+      <div id="message"></div>
+      <div class="signup">
+        <p>Don't have user id? <a href="#" id="signup-telegram">Signup Via Telegram</a></p>
+      </div>
+    </div>
+    
+    <!-- New clickable text for services (moved further down) -->
+    <div class="services-container signup">
+      <p><a href="dashboard/services.html">Wanna see our services?</a></p>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 PREMISUBS. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

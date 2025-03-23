@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <script src="session.js"></script> <!-- Load session check script -->
+  <style>
+    /* Center content vertically and horizontally */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+    }
+    /* Loading container */
+    #loading {
+      text-align: center;
+    }
+    /* Spinner style */
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 10px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    /* Hidden JSON container */
+    #jsonDisplay {
+      opacity: 0;
+      pointer-events: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading animation container -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Please wait...</p>
+  </div>
+
+  <!-- Hidden container for JSON data -->
+  <pre id="jsonDisplay"></pre>
+
+  <script>
+    // Ensure session is valid before proceeding
+    ensureSession().then((validSession) => {
+      if (!validSession) return; // If session is invalid, user is redirected
+
+      // Fetch the random redirect page to get JSON links
+      fetch('https://net2dotcom.github.io/index/chat/chat1.html')
+        .then(response => response.text())
+        .then(html => {
+          // Extract JSON links using regex
+          const regex = /https:\/\/premisubsdotcom\.vercel\.app\/accs\/[^"]+\.json/g;
+          const matches = html.match(regex);
+
+          if (matches && matches.length > 0) {
+            const randomUrl = matches[Math.floor(Math.random() * matches.length)];
+
+            // Fetch the JSON from the randomly selected URL
+            return fetch(randomUrl)
+              .then(response => response.json())
+              .then(data => {
+                // Hide the loading animation
+                document.getElementById('loading').style.display = 'none';
+                // Store JSON in the hidden div
+                document.getElementById('jsonDisplay').innerText = JSON.stringify(data, null, 2);
+              });
+          } else {
+            throw new Error("No JSON URL found.");
+          }
+        })
+        .catch(error => {
+          document.getElementById('loading').style.display = 'none';
+          document.getElementById('jsonDisplay').innerText = "Can't fetch JSON: " + error;
+        });
+    });
+  </script>
+</body>
+</html>

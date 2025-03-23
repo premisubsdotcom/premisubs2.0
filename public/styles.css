@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F8F5EB;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main container to push footer to the bottom and add top margin */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust this value to move content further down */
+}
+
+/* PREMISUBS link */
+#premisubs-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#premisubs-link:hover {
+  color: black;
+}
+
+/* Login container */
+.login-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: black;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px auto;
+  display: block;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Message styling */
+#message {
+  margin-top: 10px;
+  color: red;
+}
+
+/* Signup section (used for both Signup Via Telegram and services link) */
+.signup {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.signup p {
+  font-size: 14px;
+  color: #333;
+}
+
+.signup a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+/* New container for services link to add extra spacing */
+.services-container {
+  margin-top: 30px;
+}
+
+/* Increase font size for the "wanna see our services?" text */
+.services-container p {
+  font-size: 16px;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  font-weight: 300; /* Thinner text */
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .login-container {
+    padding: 15px 20px;
+  }
+  button {
+    max-width: none;
+    width: 100%;
+  }
+}
