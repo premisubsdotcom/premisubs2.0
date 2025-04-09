@@ -2,15 +2,8 @@
 const menuToggle = document.getElementById('menu-toggle');
 const menuWindow = document.getElementById('menu-window');
 const body = document.body;
-const contentWrapper = document.getElementById('content-wrapper');
 
 menuToggle.addEventListener('click', (e) => {
-  // Remove login popup if it exists so it doesn't block the menu toggle
-  const existingPopup = document.querySelector('.login-popup-overlay');
-  if (existingPopup) {
-    existingPopup.remove();
-  }
-  
   e.stopPropagation();
   
   if (menuWindow.style.left === '0px') {
@@ -25,6 +18,7 @@ menuToggle.addEventListener('click', (e) => {
     body.classList.add('menu-open');
   }
 });
+
 
 // Close the menu when clicking outside the menu window or toggle
 document.addEventListener('click', (e) => {
@@ -217,7 +211,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const messages = [
     'If you want accounts id and password or any other subscriptions at low prices, contact us. <a href="https://premisubsdotcom.vercel.app/deals/deals.html" target="_blank" style="color: white; text-decoration: underline;">Click here to see all what we sell</a>.',
     "Don't logout the account after login. If you logout, account may ban. Please just close the tab without logging out or use our logout extension.",
-    "Bookmark this website for easy access."
+    'Bookmark this website for easy access. and For latest domain update, direct search for <a href="https://www.premisubs.com" target="_blank" style="color: white; text-decoration: underline;">Premisubs.com</a> Domain. ',
+    "please share this website with everyone and help them to get these for free"
   ];
   let currentMessageIndex = 0;
 

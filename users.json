@@ -1,23 +1,1790 @@
 {
-  "7314278717": {
-    "chatId": 7314278717,
-    "firstName": "Nani",
-    "lastName": "N/A",
-    "username": "A743551",
-    "registeredAt": "Tue, 18 Mar 2025 15:46:56 GMT"
-  },
-  "7677435510": {
-    "chatId": 7677435510,
-    "firstName": "Subscriptions",
-    "lastName": "Seller",
-    "username": "PurveyorSoul",
-    "registeredAt": "Tue, 18 Mar 2025 15:55:17 GMT"
-  },
-  "6613563782": {
-    "chatId": 6613563782,
-    "firstName": "Sidduuu",
-    "lastName": "N/A",
-    "username": "Sidduuu17",
-    "registeredAt": "Wed, 19 Mar 2025 14:20:45 GMT"
+  "totalUsers": 255,
+  "users": {
+    "219191773": {
+      "chatId": 219191773,
+      "firstName": "$™",
+      "lastName": "N/A",
+      "username": "@Chikiiezzz",
+      "registeredAt": "Sat, 29 Mar 2025 15:39:17 GMT"
+    },
+    "427740607": {
+      "chatId": 427740607,
+      "firstName": "Satark",
+      "lastName": ".",
+      "username": "@KillerFrost_Fir",
+      "registeredAt": "Fri, 28 Mar 2025 12:43:38 GMT"
+    },
+    "444171008": {
+      "chatId": 444171008,
+      "firstName": "Fairy",
+      "lastName": "N/A",
+      "username": "@FairyRoot",
+      "registeredAt": "Sun, 23 Mar 2025 23:38:30 GMT"
+    },
+    "453820333": {
+      "chatId": 453820333,
+      "firstName": "Godson",
+      "lastName": "N/A",
+      "username": "@pixxxy4",
+      "registeredAt": "Wed, 02 Apr 2025 16:15:34 GMT"
+    },
+    "633164651": {
+      "chatId": 633164651,
+      "firstName": "Anos Voldigoad",
+      "lastName": "N/A",
+      "username": "@IAmAnosVoldigoad",
+      "registeredAt": "Mon, 24 Mar 2025 10:10:39 GMT"
+    },
+    "669995658": {
+      "chatId": 669995658,
+      "firstName": "Alex_jack",
+      "lastName": "N/A",
+      "username": "@tomholland_dr",
+      "registeredAt": "Tue, 25 Mar 2025 18:31:26 GMT"
+    },
+    "702713628": {
+      "chatId": 702713628,
+      "firstName": "RAM PRAKASH",
+      "lastName": "V",
+      "username": "@RAMPRAKASH_1",
+      "registeredAt": "Wed, 26 Mar 2025 08:16:19 GMT"
+    },
+    "706875889": {
+      "chatId": 706875889,
+      "firstName": "ℑ𝔩𝔩𝔲𝔪𝔦𝔫𝔞𝔱𝔦 🍥",
+      "lastName": "N/A",
+      "username": "@MJCSECURITY",
+      "registeredAt": "Wed, 26 Mar 2025 19:04:06 GMT"
+    },
+    "721170253": {
+      "chatId": 721170253,
+      "firstName": "Abdulrahman",
+      "lastName": "Ahmed",
+      "username": "@Abdulrahman26Ahmed",
+      "registeredAt": "Sat, 29 Mar 2025 16:08:36 GMT"
+    },
+    "765350910": {
+      "chatId": 765350910,
+      "firstName": "Mac",
+      "lastName": "Nd cheese",
+      "username": "N/A",
+      "registeredAt": "Thu, 27 Mar 2025 04:47:07 GMT"
+    },
+    "773865523": {
+      "chatId": 773865523,
+      "firstName": "Allen",
+      "lastName": "Sajan",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 01:37:42 GMT"
+    },
+    "788913991": {
+      "chatId": 788913991,
+      "firstName": "Sam",
+      "lastName": "N/A",
+      "username": "@Islam809",
+      "registeredAt": "Sun, 30 Mar 2025 15:17:49 GMT"
+    },
+    "812796341": {
+      "chatId": 812796341,
+      "firstName": "ᴹᴿメK I S H L A Y☂️シ",
+      "lastName": "N/A",
+      "username": "@lieandfly",
+      "registeredAt": "Sat, 29 Mar 2025 11:06:01 GMT"
+    },
+    "812918468": {
+      "chatId": 812918468,
+      "firstName": "Smart",
+      "lastName": "Boy",
+      "username": "@Odinary_boy5",
+      "registeredAt": "Thu, 27 Mar 2025 18:44:13 GMT"
+    },
+    "887845494": {
+      "chatId": 887845494,
+      "firstName": "Tanmay Pamar",
+      "lastName": "N/A",
+      "username": "@Tanmay222",
+      "registeredAt": "Tue, 25 Mar 2025 11:56:37 GMT"
+    },
+    "917873714": {
+      "chatId": 917873714,
+      "firstName": "Alphyas",
+      "lastName": "Suriyan J",
+      "username": "@AlphyassuriyanJ",
+      "registeredAt": "Tue, 01 Apr 2025 16:17:26 GMT"
+    },
+    "924127280": {
+      "chatId": 924127280,
+      "firstName": "Mohamed",
+      "lastName": "Elsayed",
+      "username": "@Moshka_The_Emp",
+      "registeredAt": "Fri, 28 Mar 2025 12:49:23 GMT"
+    },
+    "933493534": {
+      "chatId": 933493534,
+      "firstName": "Ｍ７ＭＥＤ",
+      "lastName": "N/A",
+      "username": "@M7MED1573",
+      "registeredAt": "Tue, 25 Mar 2025 09:03:18 GMT"
+    },
+    "953444314": {
+      "chatId": 953444314,
+      "firstName": "Aditya",
+      "lastName": "Pratap Singh",
+      "username": "@BotOrW8",
+      "registeredAt": "Wed, 02 Apr 2025 16:52:27 GMT"
+    },
+    "959808167": {
+      "chatId": 959808167,
+      "firstName": "Adarsh",
+      "lastName": "Mishra",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 09:36:15 GMT"
+    },
+    "960327941": {
+      "chatId": 960327941,
+      "firstName": "Hamdy Ramadan",
+      "lastName": "N/A",
+      "username": "@HRE_15",
+      "registeredAt": "Tue, 01 Apr 2025 21:01:03 GMT"
+    },
+    "975962679": {
+      "chatId": 975962679,
+      "firstName": "Jack",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 23 Mar 2025 22:54:50 GMT"
+    },
+    "981151140": {
+      "chatId": 981151140,
+      "firstName": "Yøússéf",
+      "lastName": "Dè Líght",
+      "username": "@E_spaceship",
+      "registeredAt": "Sat, 29 Mar 2025 13:07:07 GMT"
+    },
+    "982798220": {
+      "chatId": 982798220,
+      "firstName": "Sparsh",
+      "lastName": "Agarwal",
+      "username": "@agasparsh",
+      "registeredAt": "Thu, 27 Mar 2025 17:02:20 GMT"
+    },
+    "1013818921": {
+      "chatId": 1013818921,
+      "firstName": "Sandesh",
+      "lastName": "Shingare",
+      "username": "N/A",
+      "registeredAt": "Sat, 05 Apr 2025 13:39:57 GMT"
+    },
+    "1019133796": {
+      "chatId": 1019133796,
+      "firstName": "Hello 🐈‍⬛🍅🌱",
+      "lastName": "N/A",
+      "username": "@butboy56",
+      "registeredAt": "Wed, 26 Mar 2025 20:13:46 GMT"
+    },
+    "1025662291": {
+      "chatId": 1025662291,
+      "firstName": "santhosh",
+      "lastName": "kumar",
+      "username": "@sandyskdj",
+      "registeredAt": "Tue, 25 Mar 2025 19:02:03 GMT"
+    },
+    "1048061918": {
+      "chatId": 1048061918,
+      "firstName": "Ali Samir Ali",
+      "lastName": "N/A",
+      "username": "@tillawiy",
+      "registeredAt": "Mon, 24 Mar 2025 02:33:10 GMT"
+    },
+    "1050126087": {
+      "chatId": 1050126087,
+      "firstName": "Balasubramanian",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 06 Apr 2025 11:58:03 GMT"
+    },
+    "1052783124": {
+      "chatId": 1052783124,
+      "firstName": "🫰",
+      "lastName": "N/A",
+      "username": "@Loveforu143",
+      "registeredAt": "Fri, 28 Mar 2025 09:41:33 GMT"
+    },
+    "1086753682": {
+      "chatId": 1086753682,
+      "firstName": "A",
+      "lastName": "MANNA",
+      "username": "@AManna_1041",
+      "registeredAt": "Tue, 01 Apr 2025 07:21:11 GMT"
+    },
+    "1096437961": {
+      "chatId": 1096437961,
+      "firstName": "aladin",
+      "lastName": "22",
+      "username": "@alfodang",
+      "registeredAt": "Thu, 03 Apr 2025 15:14:18 GMT"
+    },
+    "1101527718": {
+      "chatId": 1101527718,
+      "firstName": "Sahil",
+      "lastName": "Bzzz",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 09:56:40 GMT"
+    },
+    "1111062216": {
+      "chatId": 1111062216,
+      "firstName": "Naveen",
+      "lastName": "N/A",
+      "username": "@Naveen_Prabhu6346",
+      "registeredAt": "Wed, 26 Mar 2025 19:38:04 GMT"
+    },
+    "1115478013": {
+      "chatId": 1115478013,
+      "firstName": "Pz",
+      "lastName": "J",
+      "username": "@siiuu_7",
+      "registeredAt": "Fri, 28 Mar 2025 06:57:51 GMT"
+    },
+    "1145318583": {
+      "chatId": 1145318583,
+      "firstName": "Arun",
+      "lastName": "N/A",
+      "username": "@Arun_n27",
+      "registeredAt": "Sun, 30 Mar 2025 17:38:50 GMT"
+    },
+    "1149141416": {
+      "chatId": 1149141416,
+      "firstName": "Ayiiiennn?",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 19:26:10 GMT"
+    },
+    "1152996335": {
+      "chatId": 1152996335,
+      "firstName": "Omkar",
+      "lastName": "Haresh Gage",
+      "username": "@omgage",
+      "registeredAt": "Fri, 04 Apr 2025 19:09:29 GMT"
+    },
+    "1166936111": {
+      "chatId": 1166936111,
+      "firstName": "Tamanna",
+      "lastName": "Khan",
+      "username": "N/A",
+      "registeredAt": "Tue, 01 Apr 2025 08:18:24 GMT"
+    },
+    "1174306763": {
+      "chatId": 1174306763,
+      "firstName": "A",
+      "lastName": "N/A",
+      "username": "@akalhara",
+      "registeredAt": "Mon, 24 Mar 2025 08:17:51 GMT"
+    },
+    "1184628736": {
+      "chatId": 1184628736,
+      "firstName": "dhinesh",
+      "lastName": "N/A",
+      "username": "@Dhinesh_36",
+      "registeredAt": "Sun, 30 Mar 2025 08:11:19 GMT"
+    },
+    "1196343113": {
+      "chatId": 1196343113,
+      "firstName": "Mohamed",
+      "lastName": "Saad",
+      "username": "@Anti_error",
+      "registeredAt": "Tue, 01 Apr 2025 15:28:16 GMT"
+    },
+    "1206035626": {
+      "chatId": 1206035626,
+      "firstName": "Lucas",
+      "lastName": "Santos",
+      "username": "@LucasSantos15183",
+      "registeredAt": "Thu, 27 Mar 2025 14:40:36 GMT"
+    },
+    "1218643424": {
+      "chatId": 1218643424,
+      "firstName": "Monkey D Luffy",
+      "lastName": "N/A",
+      "username": "@Monkey_D_luffy690",
+      "registeredAt": "Mon, 24 Mar 2025 05:28:03 GMT"
+    },
+    "1231251947": {
+      "chatId": 1231251947,
+      "firstName": "M",
+      "lastName": "Z",
+      "username": "@manthan697",
+      "registeredAt": "Fri, 04 Apr 2025 22:31:18 GMT"
+    },
+    "1231720457": {
+      "chatId": 1231720457,
+      "firstName": "Busca",
+      "lastName": "Recursos",
+      "username": "@BuscaRecursos",
+      "registeredAt": "Mon, 24 Mar 2025 17:19:47 GMT"
+    },
+    "1238373854": {
+      "chatId": 1238373854,
+      "firstName": "Biplav",
+      "lastName": "Barua",
+      "username": "@biplavbarua",
+      "registeredAt": "Wed, 02 Apr 2025 12:54:00 GMT"
+    },
+    "1255837221": {
+      "chatId": 1255837221,
+      "firstName": "Hashirama",
+      "lastName": "Senju",
+      "username": "@senjuhashiramagod",
+      "registeredAt": "Tue, 25 Mar 2025 03:42:06 GMT"
+    },
+    "1262380077": {
+      "chatId": 1262380077,
+      "firstName": "Vikas",
+      "lastName": "N/A",
+      "username": "@explorateur00",
+      "registeredAt": "Mon, 31 Mar 2025 09:54:35 GMT"
+    },
+    "1273161410": {
+      "chatId": 1273161410,
+      "firstName": "Time",
+      "lastName": "N/A",
+      "username": "@Timeisgood1",
+      "registeredAt": "Sat, 29 Mar 2025 16:38:30 GMT"
+    },
+    "1291012884": {
+      "chatId": 1291012884,
+      "firstName": "Rohit",
+      "lastName": "Naikawadi",
+      "username": "@million_dollor26",
+      "registeredAt": "Sun, 30 Mar 2025 10:09:57 GMT"
+    },
+    "1292578326": {
+      "chatId": 1292578326,
+      "firstName": "Ayush",
+      "lastName": "N/A",
+      "username": "@SpideyMishra",
+      "registeredAt": "Sat, 29 Mar 2025 06:55:02 GMT"
+    },
+    "1293083116": {
+      "chatId": 1293083116,
+      "firstName": "S",
+      "lastName": "S",
+      "username": "@Shanku46",
+      "registeredAt": "Sun, 30 Mar 2025 03:47:43 GMT"
+    },
+    "1304537007": {
+      "chatId": 1304537007,
+      "firstName": "DEATHRAY",
+      "lastName": "ĐɆ₳₮ⱧⱤ₳Ɏ",
+      "username": "@MR_DEATHRAY",
+      "registeredAt": "Wed, 02 Apr 2025 20:02:34 GMT"
+    },
+    "1308044287": {
+      "chatId": 1308044287,
+      "firstName": "Ganesh",
+      "lastName": "N/A",
+      "username": "@Ganesh_0329",
+      "registeredAt": "Thu, 27 Mar 2025 19:04:06 GMT"
+    },
+    "1308487159": {
+      "chatId": 1308487159,
+      "firstName": "MD. Shadin",
+      "lastName": "N/A",
+      "username": "@shadinislam02",
+      "registeredAt": "Tue, 25 Mar 2025 19:42:59 GMT"
+    },
+    "1311946210": {
+      "chatId": 1311946210,
+      "firstName": "Hatake",
+      "lastName": "N/A",
+      "username": "@WhiteFANGjr",
+      "registeredAt": "Fri, 28 Mar 2025 16:25:10 GMT"
+    },
+    "1313359040": {
+      "chatId": 1313359040,
+      "firstName": "Dinesh",
+      "lastName": "Choudhary",
+      "username": "@whodineshchoudhary",
+      "registeredAt": "Sun, 30 Mar 2025 09:07:17 GMT"
+    },
+    "1328726456": {
+      "chatId": 1328726456,
+      "firstName": "Tushar",
+      "lastName": "Dutta",
+      "username": "@tdutta24",
+      "registeredAt": "Sat, 29 Mar 2025 10:28:05 GMT"
+    },
+    "1340479161": {
+      "chatId": 1340479161,
+      "firstName": "amey",
+      "lastName": "N/A",
+      "username": "@ameybamane",
+      "registeredAt": "Sun, 30 Mar 2025 09:30:26 GMT"
+    },
+    "1385232341": {
+      "chatId": 1385232341,
+      "firstName": "ZYOTRExx",
+      "lastName": "N/A",
+      "username": "@S41YAM",
+      "registeredAt": "Fri, 28 Mar 2025 14:14:28 GMT"
+    },
+    "1385902383": {
+      "chatId": 1385902383,
+      "firstName": "hecker",
+      "lastName": "N/A",
+      "username": "@hecker404",
+      "registeredAt": "Mon, 24 Mar 2025 08:20:57 GMT"
+    },
+    "1388806866": {
+      "chatId": 1388806866,
+      "firstName": "Mo Gfx",
+      "lastName": "N/A",
+      "username": "@STORM1GFX",
+      "registeredAt": "Fri, 28 Mar 2025 05:34:36 GMT"
+    },
+    "1396371278": {
+      "chatId": 1396371278,
+      "firstName": "Heman",
+      "lastName": "N/A",
+      "username": "@heman_gowda",
+      "registeredAt": "Mon, 31 Mar 2025 14:37:45 GMT"
+    },
+    "1400469473": {
+      "chatId": 1400469473,
+      "firstName": "Emenee",
+      "lastName": "N/A",
+      "username": "@Emenee",
+      "registeredAt": "Thu, 27 Mar 2025 16:25:39 GMT"
+    },
+    "1430460969": {
+      "chatId": 1430460969,
+      "firstName": "Ziwad",
+      "lastName": "N/A",
+      "username": "@ziwad0x",
+      "registeredAt": "Sun, 23 Mar 2025 20:23:21 GMT"
+    },
+    "1432874010": {
+      "chatId": 1432874010,
+      "firstName": "𝗦𝗸 𝗝𝗶 𝗞𝗶𝗻𝗴",
+      "lastName": "N/A",
+      "username": "@SK_KING_OFFICIAL_05",
+      "registeredAt": "Fri, 28 Mar 2025 13:28:52 GMT"
+    },
+    "1433483589": {
+      "chatId": 1433483589,
+      "firstName": "Karthik",
+      "lastName": "Sherugar",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 13:40:01 GMT"
+    },
+    "1457596220": {
+      "chatId": 1457596220,
+      "firstName": "RAM",
+      "lastName": "N/A",
+      "username": "@evr_prasanth",
+      "registeredAt": "Sun, 23 Mar 2025 18:00:05 GMT"
+    },
+    "1479828708": {
+      "chatId": 1479828708,
+      "firstName": "𝗝𝗢𝗛𝗡",
+      "lastName": "N/A",
+      "username": "@jbt1920",
+      "registeredAt": "Sat, 29 Mar 2025 13:07:18 GMT"
+    },
+    "1489899911": {
+      "chatId": 1489899911,
+      "firstName": "Srinu",
+      "lastName": "N/A",
+      "username": "@SHRINIVAS_VULLoji",
+      "registeredAt": "Thu, 03 Apr 2025 04:17:39 GMT"
+    },
+    "1494634811": {
+      "chatId": 1494634811,
+      "firstName": "Noob",
+      "lastName": "Alpha",
+      "username": "N/A",
+      "registeredAt": "Tue, 25 Mar 2025 14:45:04 GMT"
+    },
+    "1553312152": {
+      "chatId": 1553312152,
+      "firstName": "⏤͟͞ 𝙋𝙧𝙖𝙣𝙖𝙫 🪐",
+      "lastName": "N/A",
+      "username": "@pranavvvvvv99",
+      "registeredAt": "Fri, 04 Apr 2025 10:22:50 GMT"
+    },
+    "1567401233": {
+      "chatId": 1567401233,
+      "firstName": "Anish",
+      "lastName": "Dutta",
+      "username": "@anishdutta1960",
+      "registeredAt": "Sun, 30 Mar 2025 19:53:21 GMT"
+    },
+    "1603949446": {
+      "chatId": 1603949446,
+      "firstName": "𝒯𝒽𝑒 𝒮𝒯𝐼𝒩𝒢",
+      "lastName": "𓄀",
+      "username": "@Yamlok",
+      "registeredAt": "Thu, 27 Mar 2025 20:42:41 GMT"
+    },
+    "1618770842": {
+      "chatId": 1618770842,
+      "firstName": "Dwip Uttekar",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Fri, 04 Apr 2025 22:17:09 GMT"
+    },
+    "1643028524": {
+      "chatId": 1643028524,
+      "firstName": "Prashant",
+      "lastName": "Gupta",
+      "username": "N/A",
+      "registeredAt": "Sat, 05 Apr 2025 18:25:26 GMT"
+    },
+    "1698417413": {
+      "chatId": 1698417413,
+      "firstName": "Sanjana",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 14:24:26 GMT"
+    },
+    "1700539857": {
+      "chatId": 1700539857,
+      "firstName": "Mr.innocent (Raj) 💗",
+      "lastName": "N/A",
+      "username": "@raj_yadav_11",
+      "registeredAt": "Sat, 29 Mar 2025 15:16:45 GMT"
+    },
+    "1717203642": {
+      "chatId": 1717203642,
+      "firstName": "Unfinded",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 05:28:43 GMT"
+    },
+    "1724773763": {
+      "chatId": 1724773763,
+      "firstName": "Username",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 10:26:55 GMT"
+    },
+    "1738988571": {
+      "chatId": 1738988571,
+      "firstName": "rathlavath",
+      "lastName": "karthik",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 18:31:31 GMT"
+    },
+    "1767750236": {
+      "chatId": 1767750236,
+      "firstName": "priyanshu",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Tue, 25 Mar 2025 17:27:24 GMT"
+    },
+    "1826908853": {
+      "chatId": 1826908853,
+      "firstName": "Akshit",
+      "lastName": "Garg",
+      "username": "@AKSHIT_GARG_928",
+      "registeredAt": "Tue, 25 Mar 2025 10:43:09 GMT"
+    },
+    "1852310238": {
+      "chatId": 1852310238,
+      "firstName": "Madhu",
+      "lastName": "N/A",
+      "username": "@No7username",
+      "registeredAt": "Wed, 26 Mar 2025 08:21:13 GMT"
+    },
+    "1864362149": {
+      "chatId": 1864362149,
+      "firstName": "Abhi",
+      "lastName": "N/A",
+      "username": "@Aaaa7097",
+      "registeredAt": "Mon, 31 Mar 2025 10:24:11 GMT"
+    },
+    "1922119134": {
+      "chatId": 1922119134,
+      "firstName": "KETHAVATH",
+      "lastName": "THARUN RATHOD.",
+      "username": "N/A",
+      "registeredAt": "Mon, 07 Apr 2025 05:24:35 GMT"
+    },
+    "1978699535": {
+      "chatId": 1978699535,
+      "firstName": "KYalaguresh",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Thu, 27 Mar 2025 17:49:21 GMT"
+    },
+    "1991156744": {
+      "chatId": 1991156744,
+      "firstName": "AbdulRahman",
+      "lastName": "Atef",
+      "username": "@desAtef12",
+      "registeredAt": "Wed, 26 Mar 2025 06:37:19 GMT"
+    },
+    "2004684527": {
+      "chatId": 2004684527,
+      "firstName": "Dev",
+      "lastName": "N/A",
+      "username": "@selmon290",
+      "registeredAt": "Sat, 29 Mar 2025 12:51:14 GMT"
+    },
+    "2012707547": {
+      "chatId": 2012707547,
+      "firstName": "Priyanka",
+      "lastName": "Sen",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 17:36:43 GMT"
+    },
+    "2059722914": {
+      "chatId": 2059722914,
+      "firstName": "Esha",
+      "lastName": "Debnath",
+      "username": "N/A",
+      "registeredAt": "Mon, 31 Mar 2025 16:20:39 GMT"
+    },
+    "2088494606": {
+      "chatId": 2088494606,
+      "firstName": "Biswarup",
+      "lastName": "Ghosh",
+      "username": "@iam_biswarup",
+      "registeredAt": "Sat, 29 Mar 2025 17:55:06 GMT"
+    },
+    "2134097787": {
+      "chatId": 2134097787,
+      "firstName": "Abdo",
+      "lastName": "Saad",
+      "username": "@Abdelrahman_S3ad",
+      "registeredAt": "Sun, 06 Apr 2025 13:44:31 GMT"
+    },
+    "2137535626": {
+      "chatId": 2137535626,
+      "firstName": "Nerseno",
+      "lastName": "N/A",
+      "username": "@Nerseno",
+      "registeredAt": "Wed, 26 Mar 2025 15:24:23 GMT"
+    },
+    "7677435510": {
+      "chatId": 7677435510,
+      "firstName": "Subscriptions",
+      "lastName": "Seller",
+      "username": "@PurveyorSoul",
+      "registeredAt": "Sun, 23 Mar 2025 17:59:11 GMT"
+    },
+    "8066150323": {
+      "chatId": 8066150323,
+      "firstName": "noonXD",
+      "lastName": "N/A",
+      "username": "@noonXD",
+      "registeredAt": "Sun, 23 Mar 2025 18:19:46 GMT"
+    },
+    "6613563782": {
+      "chatId": 6613563782,
+      "firstName": "Sidduuu17",
+      "lastName": "N/A",
+      "username": "@Sidduuu17",
+      "registeredAt": "Sun, 23 Mar 2025 18:22:35 GMT"
+    },
+    "5523276534": {
+      "chatId": 5523276534,
+      "firstName": "ᴅᴇᴠ ɢᴜᴘᴛᴀ",
+      "lastName": "N/A",
+      "username": "@ShortsmodsOwner",
+      "registeredAt": "Sun, 23 Mar 2025 18:25:28 GMT"
+    },
+    "7716695744": {
+      "chatId": 7716695744,
+      "firstName": "Neovaita",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 23 Mar 2025 18:41:34 GMT"
+    },
+    "6927212311": {
+      "chatId": 6927212311,
+      "firstName": "Chityala",
+      "lastName": "Vasanth",
+      "username": "N/A",
+      "registeredAt": "Sun, 23 Mar 2025 18:53:35 GMT"
+    },
+    "5723412021": {
+      "chatId": 5723412021,
+      "firstName": "Wael ahmed",
+      "lastName": "N/A",
+      "username": "@Rawael1",
+      "registeredAt": "Sun, 23 Mar 2025 20:42:10 GMT"
+    },
+    "5699194140": {
+      "chatId": 5699194140,
+      "firstName": "Fake refer",
+      "lastName": "(假参考)",
+      "username": "@Fake_refers2",
+      "registeredAt": "Mon, 24 Mar 2025 00:53:27 GMT"
+    },
+    "7339559025": {
+      "chatId": 7339559025,
+      "firstName": "Dark hunter (offline due to exam)",
+      "lastName": "N/A",
+      "username": "@Dark_hunter009",
+      "registeredAt": "Mon, 24 Mar 2025 02:44:04 GMT"
+    },
+    "6645488169": {
+      "chatId": 6645488169,
+      "firstName": "Afruz",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 03:26:54 GMT"
+    },
+    "6519236740": {
+      "chatId": 6519236740,
+      "firstName": "Hare krishna",
+      "lastName": "N/A",
+      "username": "@sam_here2806",
+      "registeredAt": "Mon, 24 Mar 2025 03:51:46 GMT"
+    },
+    "5955274026": {
+      "chatId": 5955274026,
+      "firstName": "Cyber",
+      "lastName": "Geek",
+      "username": "@Cyber_AI1",
+      "registeredAt": "Mon, 24 Mar 2025 04:01:56 GMT"
+    },
+    "6943334406": {
+      "chatId": 6943334406,
+      "firstName": "Ja",
+      "lastName": "C",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 04:26:59 GMT"
+    },
+    "6348916651": {
+      "chatId": 6348916651,
+      "firstName": "Kace",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 04:29:55 GMT"
+    },
+    "7535836571": {
+      "chatId": 7535836571,
+      "firstName": "Aghniya",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 04:35:28 GMT"
+    },
+    "7596272328": {
+      "chatId": 7596272328,
+      "firstName": "Rock",
+      "lastName": "J",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 04:37:24 GMT"
+    },
+    "7283339844": {
+      "chatId": 7283339844,
+      "firstName": "Unknown",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 04:47:19 GMT"
+    },
+    "6056164663": {
+      "chatId": 6056164663,
+      "firstName": "Rishi",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 05:03:30 GMT"
+    },
+    "7305740352": {
+      "chatId": 7305740352,
+      "firstName": "Reckless",
+      "lastName": "N/A",
+      "username": "@eIchap0",
+      "registeredAt": "Mon, 24 Mar 2025 05:34:24 GMT"
+    },
+    "5218103772": {
+      "chatId": 5218103772,
+      "firstName": "Dhruv",
+      "lastName": "N/A",
+      "username": "@dhruv788",
+      "registeredAt": "Mon, 24 Mar 2025 05:49:45 GMT"
+    },
+    "5209438195": {
+      "chatId": 5209438195,
+      "firstName": "Rohit",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 05:50:48 GMT"
+    },
+    "6215401674": {
+      "chatId": 6215401674,
+      "firstName": "Pavan Sai",
+      "lastName": "Vemula",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 06:00:29 GMT"
+    },
+    "6888983526": {
+      "chatId": 6888983526,
+      "firstName": "Hahaha",
+      "lastName": "N/A",
+      "username": "@mai_hu_mai",
+      "registeredAt": "Mon, 24 Mar 2025 06:15:30 GMT"
+    },
+    "7167145056": {
+      "chatId": 7167145056,
+      "firstName": "Anuj",
+      "lastName": "Singh 𒅒",
+      "username": "@Anujdb",
+      "registeredAt": "Mon, 24 Mar 2025 06:54:33 GMT"
+    },
+    "6418627097": {
+      "chatId": 6418627097,
+      "firstName": "GOLD D RODGER",
+      "lastName": "𝐇🔮𝐇",
+      "username": "@G0dMikey",
+      "registeredAt": "Mon, 24 Mar 2025 09:19:28 GMT"
+    },
+    "8073694815": {
+      "chatId": 8073694815,
+      "firstName": "Mukul",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 09:20:38 GMT"
+    },
+    "6227460761": {
+      "chatId": 6227460761,
+      "firstName": "Bhumi",
+      "lastName": "Kumar",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 09:49:58 GMT"
+    },
+    "6340081918": {
+      "chatId": 6340081918,
+      "firstName": "Pheonix",
+      "lastName": "N/A",
+      "username": "@Shadow_Monarach7",
+      "registeredAt": "Mon, 24 Mar 2025 10:34:24 GMT"
+    },
+    "6138464183": {
+      "chatId": 6138464183,
+      "firstName": "Keerat 🚩",
+      "lastName": "N/A",
+      "username": "@ItsKeerat",
+      "registeredAt": "Mon, 24 Mar 2025 11:40:57 GMT"
+    },
+    "7256815478": {
+      "chatId": 7256815478,
+      "firstName": "Krishnan",
+      "lastName": "Agrawal",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 12:52:10 GMT"
+    },
+    "6676198116": {
+      "chatId": 6676198116,
+      "firstName": "Kan",
+      "lastName": "N/A",
+      "username": "@kan_human",
+      "registeredAt": "Mon, 24 Mar 2025 12:57:20 GMT"
+    },
+    "6782872300": {
+      "chatId": 6782872300,
+      "firstName": "DARKVENOMG NETWORKS",
+      "lastName": "N/A",
+      "username": "@DARKVENOMGNETWORKS",
+      "registeredAt": "Mon, 24 Mar 2025 12:57:49 GMT"
+    },
+    "6690093621": {
+      "chatId": 6690093621,
+      "firstName": "Nirogya",
+      "lastName": "Prasain",
+      "username": "@nepaliice",
+      "registeredAt": "Mon, 24 Mar 2025 13:56:51 GMT"
+    },
+    "5207993477": {
+      "chatId": 5207993477,
+      "firstName": "Loveleen",
+      "lastName": "Batra",
+      "username": "@L_o_v_e_iiii_28",
+      "registeredAt": "Mon, 24 Mar 2025 14:19:57 GMT"
+    },
+    "6012143224": {
+      "chatId": 6012143224,
+      "firstName": "Unknown",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 15:07:35 GMT"
+    },
+    "7382019595": {
+      "chatId": 7382019595,
+      "firstName": "Manish",
+      "lastName": "Sharma🐍",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 15:33:39 GMT"
+    },
+    "5135147696": {
+      "chatId": 5135147696,
+      "firstName": "Rana",
+      "lastName": "Debnath",
+      "username": "@Rana_Bachelor",
+      "registeredAt": "Mon, 24 Mar 2025 15:56:00 GMT"
+    },
+    "6154130320": {
+      "chatId": 6154130320,
+      "firstName": "Rahul Dravid",
+      "lastName": "Dravid",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 16:28:53 GMT"
+    },
+    "5675373771": {
+      "chatId": 5675373771,
+      "firstName": "𝐋𝐨𝐯𝐞",
+      "lastName": "N/A",
+      "username": "@Aldrich_fmg",
+      "registeredAt": "Mon, 24 Mar 2025 16:29:22 GMT"
+    },
+    "6280145272": {
+      "chatId": 6280145272,
+      "firstName": "SOLO LEVELER HERE",
+      "lastName": "(ASTA)",
+      "username": "@SoloLevelerHere",
+      "registeredAt": "Mon, 24 Mar 2025 17:33:56 GMT"
+    },
+    "7314278717": {
+      "chatId": 7314278717,
+      "firstName": "Nani",
+      "lastName": "N/A",
+      "username": "@A743551",
+      "registeredAt": "Mon, 24 Mar 2025 17:54:19 GMT"
+    },
+    "7483100769": {
+      "chatId": 7483100769,
+      "firstName": "Nani",
+      "lastName": "N/A",
+      "username": "@Telugu_Boyyy",
+      "registeredAt": "Mon, 24 Mar 2025 17:55:28 GMT"
+    },
+    "7216548399": {
+      "chatId": 7216548399,
+      "firstName": "Pragathi",
+      "lastName": "N/A",
+      "username": "@Ztatqqb",
+      "registeredAt": "Mon, 24 Mar 2025 17:56:47 GMT"
+    },
+    "5781707584": {
+      "chatId": 5781707584,
+      "firstName": "Mr.Strategist📍",
+      "lastName": "N/A",
+      "username": "@mrstrategistt",
+      "registeredAt": "Mon, 24 Mar 2025 18:00:56 GMT"
+    },
+    "6324053989": {
+      "chatId": 6324053989,
+      "firstName": "Muzamil",
+      "lastName": "Khan",
+      "username": "@khaano007",
+      "registeredAt": "Mon, 24 Mar 2025 18:59:19 GMT"
+    },
+    "7711974813": {
+      "chatId": 7711974813,
+      "firstName": "K",
+      "lastName": "N/A",
+      "username": "@K101101K",
+      "registeredAt": "Mon, 24 Mar 2025 21:07:01 GMT"
+    },
+    "6428035359": {
+      "chatId": 6428035359,
+      "firstName": "M",
+      "lastName": "M",
+      "username": "N/A",
+      "registeredAt": "Mon, 24 Mar 2025 21:17:52 GMT"
+    },
+    "5036076400": {
+      "chatId": 5036076400,
+      "firstName": "Kardi",
+      "lastName": "Abderrezak",
+      "username": "@abdoukdi",
+      "registeredAt": "Mon, 24 Mar 2025 21:46:58 GMT"
+    },
+    "5582572320": {
+      "chatId": 5582572320,
+      "firstName": "Mana",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Tue, 25 Mar 2025 00:00:26 GMT"
+    },
+    "5488423565": {
+      "chatId": 5488423565,
+      "firstName": "Bellicose",
+      "lastName": "Hermit",
+      "username": "@Bellicose_Hermit",
+      "registeredAt": "Tue, 25 Mar 2025 03:48:12 GMT"
+    },
+    "5744338615": {
+      "chatId": 5744338615,
+      "firstName": "✨ Boruto 🪄",
+      "lastName": "N/A",
+      "username": "@borutouzumake",
+      "registeredAt": "Tue, 25 Mar 2025 07:46:20 GMT"
+    },
+    "6126859944": {
+      "chatId": 6126859944,
+      "firstName": "Varun",
+      "lastName": "Amballa",
+      "username": "N/A",
+      "registeredAt": "Tue, 25 Mar 2025 12:22:18 GMT"
+    },
+    "6652287427": {
+      "chatId": 6652287427,
+      "firstName": "luckyxd",
+      "lastName": "N/A",
+      "username": "@Kiltes",
+      "registeredAt": "Tue, 25 Mar 2025 15:33:27 GMT"
+    },
+    "7542713209": {
+      "chatId": 7542713209,
+      "firstName": "</>",
+      "lastName": "N/A",
+      "username": "@AX_J2",
+      "registeredAt": "Tue, 25 Mar 2025 17:04:58 GMT"
+    },
+    "6397840193": {
+      "chatId": 6397840193,
+      "firstName": "Gabriel",
+      "lastName": "Villahermosa",
+      "username": "@jasces_man",
+      "registeredAt": "Tue, 25 Mar 2025 17:46:17 GMT"
+    },
+    "6418396775": {
+      "chatId": 6418396775,
+      "firstName": "Dharmesh",
+      "lastName": "Rana",
+      "username": "@rana86278",
+      "registeredAt": "Tue, 25 Mar 2025 19:26:56 GMT"
+    },
+    "5895732529": {
+      "chatId": 5895732529,
+      "firstName": "Prakhar",
+      "lastName": "Singh",
+      "username": "N/A",
+      "registeredAt": "Tue, 25 Mar 2025 21:01:44 GMT"
+    },
+    "7356823544": {
+      "chatId": 7356823544,
+      "firstName": "M",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 06:00:29 GMT"
+    },
+    "7834546685": {
+      "chatId": 7834546685,
+      "firstName": "Arpit",
+      "lastName": "Rajput",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 12:05:58 GMT"
+    },
+    "6357512612": {
+      "chatId": 6357512612,
+      "firstName": "S -- A ␠",
+      "lastName": "N/A",
+      "username": "@ShazadAr",
+      "registeredAt": "Wed, 26 Mar 2025 12:38:51 GMT"
+    },
+    "6192010947": {
+      "chatId": 6192010947,
+      "firstName": "PRAHALAD",
+      "lastName": "SINGH",
+      "username": "@Prahalad27",
+      "registeredAt": "Wed, 26 Mar 2025 13:39:02 GMT"
+    },
+    "6451906784": {
+      "chatId": 6451906784,
+      "firstName": "Harshit",
+      "lastName": "Kumar",
+      "username": "@Harshitks",
+      "registeredAt": "Wed, 26 Mar 2025 16:14:06 GMT"
+    },
+    "5111505435": {
+      "chatId": 5111505435,
+      "firstName": "Pikachu",
+      "lastName": "N/A",
+      "username": "@azkakarot2",
+      "registeredAt": "Wed, 26 Mar 2025 16:29:10 GMT"
+    },
+    "6584814290": {
+      "chatId": 6584814290,
+      "firstName": "mani sri kumar",
+      "lastName": "msk",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 17:33:42 GMT"
+    },
+    "6809345036": {
+      "chatId": 6809345036,
+      "firstName": "Hardik",
+      "lastName": "Gupta",
+      "username": "N/A",
+      "registeredAt": "Wed, 26 Mar 2025 18:24:04 GMT"
+    },
+    "7284974008": {
+      "chatId": 7284974008,
+      "firstName": "Mukul",
+      "lastName": "N/A",
+      "username": "@mukul031",
+      "registeredAt": "Wed, 26 Mar 2025 18:55:04 GMT"
+    },
+    "6262094350": {
+      "chatId": 6262094350,
+      "firstName": "Saumya Singh",
+      "lastName": "N/A",
+      "username": "@Stoic_sam",
+      "registeredAt": "Thu, 27 Mar 2025 01:17:12 GMT"
+    },
+    "6298111147": {
+      "chatId": 6298111147,
+      "firstName": "T..",
+      "lastName": "A..",
+      "username": "N/A",
+      "registeredAt": "Thu, 27 Mar 2025 06:21:44 GMT"
+    },
+    "7764883543": {
+      "chatId": 7764883543,
+      "firstName": "Advait𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭",
+      "lastName": "N/A",
+      "username": "@Advait8",
+      "registeredAt": "Thu, 27 Mar 2025 07:22:14 GMT"
+    },
+    "5104188675": {
+      "chatId": 5104188675,
+      "firstName": "Shanik",
+      "lastName": "Ali",
+      "username": "N/A",
+      "registeredAt": "Thu, 27 Mar 2025 08:28:10 GMT"
+    },
+    "7465452118": {
+      "chatId": 7465452118,
+      "firstName": "...",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Thu, 27 Mar 2025 10:40:50 GMT"
+    },
+    "5937217262": {
+      "chatId": 5937217262,
+      "firstName": "×͜×𝐒𝐈𝐃𝐃𝐇𝐄𝐒𝐇ᥫ᭡",
+      "lastName": "N/A",
+      "username": "@siddsad29",
+      "registeredAt": "Thu, 27 Mar 2025 10:59:24 GMT"
+    },
+    "6921978524": {
+      "chatId": 6921978524,
+      "firstName": "Vortex",
+      "lastName": "N/A",
+      "username": "@Strongvortex",
+      "registeredAt": "Thu, 27 Mar 2025 14:47:33 GMT"
+    },
+    "5074563416": {
+      "chatId": 5074563416,
+      "firstName": "you can call me",
+      "lastName": "X",
+      "username": "@Udkmena",
+      "registeredAt": "Thu, 27 Mar 2025 15:08:00 GMT"
+    },
+    "7118590207": {
+      "chatId": 7118590207,
+      "firstName": "PRINCE | KING",
+      "lastName": "N/A",
+      "username": "@PRINCEYT9",
+      "registeredAt": "Thu, 27 Mar 2025 20:05:09 GMT"
+    },
+    "7634075138": {
+      "chatId": 7634075138,
+      "firstName": "Mohamed",
+      "lastName": "Abdelhameed",
+      "username": "@AbdelhameedTheSecond",
+      "registeredAt": "Thu, 27 Mar 2025 21:04:23 GMT"
+    },
+    "6205026816": {
+      "chatId": 6205026816,
+      "firstName": "Mohamed",
+      "lastName": "Osama",
+      "username": "@mohamedosama2ee",
+      "registeredAt": "Thu, 27 Mar 2025 21:53:55 GMT"
+    },
+    "7762228115": {
+      "chatId": 7762228115,
+      "firstName": "Xamiul",
+      "lastName": "Xami",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 02:18:19 GMT"
+    },
+    "7436539433": {
+      "chatId": 7436539433,
+      "firstName": "Sd",
+      "lastName": "Hero🍅",
+      "username": "@SdheroPro",
+      "registeredAt": "Fri, 28 Mar 2025 03:32:50 GMT"
+    },
+    "5930954134": {
+      "chatId": 5930954134,
+      "firstName": "Hufff",
+      "lastName": "--_--",
+      "username": "@Hufff0_0",
+      "registeredAt": "Fri, 28 Mar 2025 05:36:38 GMT"
+    },
+    "7110567340": {
+      "chatId": 7110567340,
+      "firstName": "ᴠɪꜱʜᴇꜱʜ",
+      "lastName": "N/A",
+      "username": "@aivishesh",
+      "registeredAt": "Fri, 28 Mar 2025 06:14:49 GMT"
+    },
+    "5701887005": {
+      "chatId": 5701887005,
+      "firstName": "Uchiha",
+      "lastName": "Lâm🍂 🌴 🌵 🌾 🐚 🎍",
+      "username": "@lamcotickxanh",
+      "registeredAt": "Fri, 28 Mar 2025 06:44:51 GMT"
+    },
+    "6059285719": {
+      "chatId": 6059285719,
+      "firstName": "Ankit",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 07:51:16 GMT"
+    },
+    "5009441395": {
+      "chatId": 5009441395,
+      "firstName": "zorawar",
+      "lastName": "N/A",
+      "username": "@Zorawar11",
+      "registeredAt": "Fri, 28 Mar 2025 10:35:39 GMT"
+    },
+    "7979714459": {
+      "chatId": 7979714459,
+      "firstName": "عبدالرحمن هاني سليمان",
+      "lastName": "2420738",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 12:41:54 GMT"
+    },
+    "7721460127": {
+      "chatId": 7721460127,
+      "firstName": "Manas",
+      "lastName": "Gupta",
+      "username": "@manasguptapkl",
+      "registeredAt": "Fri, 28 Mar 2025 12:57:03 GMT"
+    },
+    "7167337214": {
+      "chatId": 7167337214,
+      "firstName": "Aʙʜɪsʜᴇᴋ..シ︎",
+      "lastName": "N/A",
+      "username": "@Know_Abhiiii",
+      "registeredAt": "Fri, 28 Mar 2025 15:57:56 GMT"
+    },
+    "6581867704": {
+      "chatId": 6581867704,
+      "firstName": "Joker",
+      "lastName": "Lala",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 18:16:59 GMT"
+    },
+    "7099598482": {
+      "chatId": 7099598482,
+      "firstName": "$ujal",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Fri, 28 Mar 2025 19:17:51 GMT"
+    },
+    "5195817376": {
+      "chatId": 5195817376,
+      "firstName": "Lalithendh",
+      "lastName": "N/A",
+      "username": "@lalithendh",
+      "registeredAt": "Sat, 29 Mar 2025 04:48:15 GMT"
+    },
+    "6302156033": {
+      "chatId": 6302156033,
+      "firstName": "ANUBHAV",
+      "lastName": "N/A",
+      "username": "@GodsScourge",
+      "registeredAt": "Sat, 29 Mar 2025 04:53:55 GMT"
+    },
+    "6823781449": {
+      "chatId": 6823781449,
+      "firstName": "Pranav",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 06:54:31 GMT"
+    },
+    "5526923927": {
+      "chatId": 5526923927,
+      "firstName": "P A",
+      "lastName": "P I XD",
+      "username": "@Papi_xd",
+      "registeredAt": "Sat, 29 Mar 2025 07:39:17 GMT"
+    },
+    "5800801612": {
+      "chatId": 5800801612,
+      "firstName": "Vaishnav",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 08:29:23 GMT"
+    },
+    "5827269872": {
+      "chatId": 5827269872,
+      "firstName": "Nancy",
+      "lastName": "Maheshwari",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 08:30:24 GMT"
+    },
+    "7434687159": {
+      "chatId": 7434687159,
+      "firstName": "JaY",
+      "lastName": "N/A",
+      "username": "@jaypatel1111",
+      "registeredAt": "Sat, 29 Mar 2025 09:02:23 GMT"
+    },
+    "6494293645": {
+      "chatId": 6494293645,
+      "firstName": "Meet",
+      "lastName": "Narkhede",
+      "username": "@meetnarkhede7",
+      "registeredAt": "Sat, 29 Mar 2025 10:21:36 GMT"
+    },
+    "7846344802": {
+      "chatId": 7846344802,
+      "firstName": "𝔾 𝕫 𝕠 𝕔 𝕩",
+      "lastName": "N/A",
+      "username": "@MR_SHlVLO",
+      "registeredAt": "Sat, 29 Mar 2025 11:40:57 GMT"
+    },
+    "7673092217": {
+      "chatId": 7673092217,
+      "firstName": "Awesome",
+      "lastName": "Life",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 14:02:22 GMT"
+    },
+    "6737200731": {
+      "chatId": 6737200731,
+      "firstName": "Shashi",
+      "lastName": "Shekhar",
+      "username": "@Electro790",
+      "registeredAt": "Sat, 29 Mar 2025 15:10:31 GMT"
+    },
+    "6820667571": {
+      "chatId": 6820667571,
+      "firstName": "Hhhhhhh",
+      "lastName": "N/A",
+      "username": "@None2697",
+      "registeredAt": "Sat, 29 Mar 2025 16:24:47 GMT"
+    },
+    "5601588508": {
+      "chatId": 5601588508,
+      "firstName": "Acp",
+      "lastName": "N/A",
+      "username": "@doom154",
+      "registeredAt": "Sat, 29 Mar 2025 16:36:04 GMT"
+    },
+    "6335894119": {
+      "chatId": 6335894119,
+      "firstName": "Anshika",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sat, 29 Mar 2025 17:16:33 GMT"
+    },
+    "7239797399": {
+      "chatId": 7239797399,
+      "firstName": "Nexuz Tools",
+      "lastName": "N/A",
+      "username": "@nexuz_tools",
+      "registeredAt": "Sun, 30 Mar 2025 03:26:17 GMT"
+    },
+    "7117796405": {
+      "chatId": 7117796405,
+      "firstName": "Pradhan ji",
+      "lastName": "N/A",
+      "username": "@rinkiya_ka_baap",
+      "registeredAt": "Sun, 30 Mar 2025 03:49:54 GMT"
+    },
+    "6351364918": {
+      "chatId": 6351364918,
+      "firstName": "Rajesh",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 04:48:06 GMT"
+    },
+    "5254131709": {
+      "chatId": 5254131709,
+      "firstName": "Kaustubh",
+      "lastName": "Narkhede",
+      "username": "@sachin7304",
+      "registeredAt": "Sun, 30 Mar 2025 05:04:12 GMT"
+    },
+    "5580737591": {
+      "chatId": 5580737591,
+      "firstName": "Naresh",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 05:47:03 GMT"
+    },
+    "5926170227": {
+      "chatId": 5926170227,
+      "firstName": "Aarav",
+      "lastName": "Jain",
+      "username": "@Aaravjain98",
+      "registeredAt": "Sun, 30 Mar 2025 08:14:30 GMT"
+    },
+    "7135845675": {
+      "chatId": 7135845675,
+      "firstName": "A",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 09:03:21 GMT"
+    },
+    "7275089413": {
+      "chatId": 7275089413,
+      "firstName": "SATURO ☭",
+      "lastName": "JJㅤ〄",
+      "username": "@MR_JJ_NF",
+      "registeredAt": "Sun, 30 Mar 2025 09:11:33 GMT"
+    },
+    "6303354532": {
+      "chatId": 6303354532,
+      "firstName": "manto",
+      "lastName": "N/A",
+      "username": "@Pxvwn",
+      "registeredAt": "Sun, 30 Mar 2025 09:30:19 GMT"
+    },
+    "6471774238": {
+      "chatId": 6471774238,
+      "firstName": "Omkar",
+      "lastName": "Bamane",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 09:52:02 GMT"
+    },
+    "5022154325": {
+      "chatId": 5022154325,
+      "firstName": "greenTom4to ❄️",
+      "lastName": "N/A",
+      "username": "@greenTom4to",
+      "registeredAt": "Sun, 30 Mar 2025 10:10:37 GMT"
+    },
+    "7996363099": {
+      "chatId": 7996363099,
+      "firstName": "Pk",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 10:31:27 GMT"
+    },
+    "5847917351": {
+      "chatId": 5847917351,
+      "firstName": "AN",
+      "lastName": "N/A",
+      "username": "@Iambossyk",
+      "registeredAt": "Sun, 30 Mar 2025 11:19:48 GMT"
+    },
+    "6822519114": {
+      "chatId": 6822519114,
+      "firstName": "Viswajeetsinh7",
+      "lastName": "♥️.",
+      "username": "@Viswajeetsinh_7",
+      "registeredAt": "Sun, 30 Mar 2025 11:36:10 GMT"
+    },
+    "7761821279": {
+      "chatId": 7761821279,
+      "firstName": "@enemything",
+      "lastName": "N/A",
+      "username": "@enemything",
+      "registeredAt": "Sun, 30 Mar 2025 12:17:45 GMT"
+    },
+    "7297683223": {
+      "chatId": 7297683223,
+      "firstName": "⋆⏤͟͟͞𐏓GOKU 〆『 皇 』",
+      "lastName": "N/A",
+      "username": "@rajput_pawan931",
+      "registeredAt": "Sun, 30 Mar 2025 12:25:49 GMT"
+    },
+    "7484001324": {
+      "chatId": 7484001324,
+      "firstName": "Hemant",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sun, 30 Mar 2025 17:22:18 GMT"
+    },
+    "5498575587": {
+      "chatId": 5498575587,
+      "firstName": "Nirmal",
+      "lastName": "N/A",
+      "username": "@Nirmalxc",
+      "registeredAt": "Sun, 30 Mar 2025 17:23:45 GMT"
+    },
+    "5065850228": {
+      "chatId": 5065850228,
+      "firstName": "Aniket",
+      "lastName": "Bhati",
+      "username": "@aniketbhati7",
+      "registeredAt": "Sun, 30 Mar 2025 17:43:15 GMT"
+    },
+    "5975730517": {
+      "chatId": 5975730517,
+      "firstName": "Ｓａｈｉｌ",
+      "lastName": "♛",
+      "username": "@Sahilxadmin",
+      "registeredAt": "Sun, 30 Mar 2025 18:48:13 GMT"
+    },
+    "5822691049": {
+      "chatId": 5822691049,
+      "firstName": "Stephen",
+      "lastName": "N/A",
+      "username": "@stepfinnn",
+      "registeredAt": "Mon, 31 Mar 2025 02:24:56 GMT"
+    },
+    "6205222859": {
+      "chatId": 6205222859,
+      "firstName": "Krishna",
+      "lastName": "N/A",
+      "username": "@krishnakripa07",
+      "registeredAt": "Mon, 31 Mar 2025 03:47:04 GMT"
+    },
+    "5904060669": {
+      "chatId": 5904060669,
+      "firstName": "Reckad",
+      "lastName": "N/A",
+      "username": "@reckad",
+      "registeredAt": "Mon, 31 Mar 2025 04:23:42 GMT"
+    },
+    "6357916944": {
+      "chatId": 6357916944,
+      "firstName": "Ankit🍅",
+      "lastName": "Singh🦴 🐈‍⬛",
+      "username": "@ANKIT_9_12",
+      "registeredAt": "Mon, 31 Mar 2025 07:10:46 GMT"
+    },
+    "5122650372": {
+      "chatId": 5122650372,
+      "firstName": "Ganesh",
+      "lastName": "Lokhande",
+      "username": "N/A",
+      "registeredAt": "Mon, 31 Mar 2025 11:17:36 GMT"
+    },
+    "7005963199": {
+      "chatId": 7005963199,
+      "firstName": "Rrr",
+      "lastName": "N/A",
+      "username": "@R083JDJ",
+      "registeredAt": "Mon, 31 Mar 2025 12:50:13 GMT"
+    },
+    "6465962395": {
+      "chatId": 6465962395,
+      "firstName": "❤‍🩹",
+      "lastName": "N/A",
+      "username": "@Everyserviceavailable",
+      "registeredAt": "Mon, 31 Mar 2025 13:26:54 GMT"
+    },
+    "5924178121": {
+      "chatId": 5924178121,
+      "firstName": "⏤͟͟͞͞𝑫𝒂𝒓𝒌𝑵𝒆𝒙𝒖𝒔",
+      "lastName": "N/A",
+      "username": "@DarkNexusOwner",
+      "registeredAt": "Mon, 31 Mar 2025 14:41:02 GMT"
+    },
+    "6095491816": {
+      "chatId": 6095491816,
+      "firstName": "Achilles",
+      "lastName": "N/A",
+      "username": "@Excelachilles",
+      "registeredAt": "Mon, 31 Mar 2025 16:21:35 GMT"
+    },
+    "6922884735": {
+      "chatId": 6922884735,
+      "firstName": "𝐓𝐌 𝙺𝙴𝙽𝙹𝙰𝙺𝚄",
+      "lastName": "𝚂𝙰𝚈",
+      "username": "@Kenjakusay",
+      "registeredAt": "Mon, 31 Mar 2025 16:22:13 GMT"
+    },
+    "5438130304": {
+      "chatId": 5438130304,
+      "firstName": "Anand",
+      "lastName": "N/A",
+      "username": "@anand35757",
+      "registeredAt": "Tue, 01 Apr 2025 06:14:38 GMT"
+    },
+    "5514061473": {
+      "chatId": 5514061473,
+      "firstName": "Amitrajeet Konch",
+      "lastName": "N/A",
+      "username": "@amitrajeetkonch7635",
+      "registeredAt": "Tue, 01 Apr 2025 07:20:41 GMT"
+    },
+    "6422711213": {
+      "chatId": 6422711213,
+      "firstName": "White rabbit",
+      "lastName": "N/A",
+      "username": "@white_rabbbitt",
+      "registeredAt": "Tue, 01 Apr 2025 11:02:59 GMT"
+    },
+    "6427171359": {
+      "chatId": 6427171359,
+      "firstName": "Prashant",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Tue, 01 Apr 2025 12:23:57 GMT"
+    },
+    "5441521785": {
+      "chatId": 5441521785,
+      "firstName": "Chrischiii",
+      "lastName": "N/A",
+      "username": "@chrischiiii",
+      "registeredAt": "Tue, 01 Apr 2025 15:10:29 GMT"
+    },
+    "7090103199": {
+      "chatId": 7090103199,
+      "firstName": "Shubham",
+      "lastName": "N/A",
+      "username": "@xoxx_shubham",
+      "registeredAt": "Wed, 02 Apr 2025 17:52:13 GMT"
+    },
+    "7410220361": {
+      "chatId": 7410220361,
+      "firstName": "Alone",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Thu, 03 Apr 2025 00:01:44 GMT"
+    },
+    "6394939612": {
+      "chatId": 6394939612,
+      "firstName": "yousseftalat14",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Thu, 03 Apr 2025 01:47:43 GMT"
+    },
+    "7131282615": {
+      "chatId": 7131282615,
+      "firstName": "Ace FiegosTega",
+      "lastName": "N/A",
+      "username": "@Inukace",
+      "registeredAt": "Thu, 03 Apr 2025 13:19:51 GMT"
+    },
+    "5092845317": {
+      "chatId": 5092845317,
+      "firstName": "mr.Ali TV",
+      "lastName": "N/A",
+      "username": "@mrAli_TV",
+      "registeredAt": "Thu, 03 Apr 2025 23:37:11 GMT"
+    },
+    "6945232913": {
+      "chatId": 6945232913,
+      "firstName": "Pop",
+      "lastName": "N/A",
+      "username": "@Jubbi21",
+      "registeredAt": "Fri, 04 Apr 2025 12:34:55 GMT"
+    },
+    "7690431287": {
+      "chatId": 7690431287,
+      "firstName": "Keahav",
+      "lastName": "P",
+      "username": "N/A",
+      "registeredAt": "Fri, 04 Apr 2025 12:39:21 GMT"
+    },
+    "6801684035": {
+      "chatId": 6801684035,
+      "firstName": "Dhruv.",
+      "lastName": "N/A",
+      "username": "@Illuminatiiies",
+      "registeredAt": "Sat, 05 Apr 2025 00:20:58 GMT"
+    },
+    "6222349541": {
+      "chatId": 6222349541,
+      "firstName": "SecureByteCode",
+      "lastName": "N/A",
+      "username": "@SecureByteCode",
+      "registeredAt": "Sat, 05 Apr 2025 08:34:22 GMT"
+    },
+    "7673866525": {
+      "chatId": 7673866525,
+      "firstName": "Gaurav",
+      "lastName": "Kumar",
+      "username": "@shgauravsir",
+      "registeredAt": "Sat, 05 Apr 2025 12:21:14 GMT"
+    },
+    "5756639613": {
+      "chatId": 5756639613,
+      "firstName": "Rajiv",
+      "lastName": "N/A",
+      "username": "N/A",
+      "registeredAt": "Sat, 05 Apr 2025 13:25:05 GMT"
+    },
+    "5100666909": {
+      "chatId": 5100666909,
+      "firstName": "Liam 🍅",
+      "lastName": "N/A",
+      "username": "@Liamofficial12",
+      "registeredAt": "Sat, 05 Apr 2025 19:02:27 GMT"
+    },
+    "7125979858": {
+      "chatId": 7125979858,
+      "firstName": "Hassan",
+      "lastName": "Soomro",
+      "username": "@Hw72028",
+      "registeredAt": "Sat, 05 Apr 2025 19:03:35 GMT"
+    },
+    "6040737498": {
+      "chatId": 6040737498,
+      "firstName": "GAUTAM SHARMA",
+      "lastName": "N/A",
+      "username": "@GAUTAM648",
+      "registeredAt": "Sun, 06 Apr 2025 07:34:22 GMT"
+    },
+    "5169214660": {
+      "chatId": 5169214660,
+      "firstName": "Nitesh",
+      "lastName": "Hadke",
+      "username": "@NiteshHadke",
+      "registeredAt": "Mon, 07 Apr 2025 08:39:29 GMT"
+    },
+    "8063902104": {
+      "chatId": 8063902104,
+      "firstName": "JOHN",
+      "lastName": "WICK ☝️",
+      "username": "@Ruleroftheworld2",
+      "registeredAt": "Mon, 07 Apr 2025 14:04:17 GMT"
+    },
+    "6450387123": {
+      "chatId": 6450387123,
+      "firstName": "Jawad",
+      "lastName": "Ali 🍅",
+      "username": "N/A",
+      "registeredAt": "Mon, 07 Apr 2025 18:29:58 GMT"
+    },
+    "5123909571": {
+      "chatId": 5123909571,
+      "firstName": "☠️Lèx Légîøn☠️",
+      "lastName": "N/A",
+      "username": "@lexlegionofficial",
+      "registeredAt": "Mon, 07 Apr 2025 21:11:30 GMT"
+    },
+    "6005663723": {
+      "chatId": 6005663723,
+      "firstName": "Kislay",
+      "lastName": "Dewangan",
+      "username": "@theking0600",
+      "registeredAt": "Mon, 07 Apr 2025 21:20:16 GMT"
+    },
+    "7221971683": {
+      "chatId": 7221971683,
+      "firstName": "𝗛𝗲𝗻𝗱𝗿𝗶𝗰𝗸",
+      "lastName": "N/A",
+      "username": "@Richest_Aura",
+      "registeredAt": "Mon, 07 Apr 2025 21:20:29 GMT"
+    },
+    "6911704155": {
+      "chatId": 6911704155,
+      "firstName": "Cjhen",
+      "lastName": "Villanueva",
+      "username": "N/A",
+      "registeredAt": "Tue, 08 Apr 2025 06:44:28 GMT"
+    },
+    "5915814625": {
+      "chatId": 5915814625,
+      "firstName": "Muhammad",
+      "lastName": "Ramzan 🍅",
+      "username": "N/A",
+      "registeredAt": "Tue, 08 Apr 2025 07:59:17 GMT"
+    }
   }
 }

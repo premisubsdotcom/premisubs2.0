@@ -51,12 +51,13 @@ body {
 /* Input fields */
 input {
   width: 100%;
-  padding: 10px;
+  padding: 12px; /* Increased padding */
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 3px;
   transition: border-color 0.3s ease;
   box-sizing: border-box;
+  font-size: 1rem; /* Increase font size for better readability */
 }
 
 input:focus {
@@ -66,15 +67,15 @@ input:focus {
 
 /* Buttons */
 button {
-  padding: 10px 20px;
+  padding: 12px 20px; /* Increased padding */
   border: 2px solid black;
   border-radius: 25px;
   background-color: white;
   color: black;
   cursor: pointer;
   transition: all 0.3s ease;
-  width: 100%;
-  max-width: 200px;
+  width: auto; /* Avoid 100% width */
+  max-width: 300px; /* Maximum width for button */
   margin: 10px auto;
   display: block;
 }
@@ -129,15 +130,39 @@ footer {
   color: #333;
   font-weight: 300; /* Thinner text */
   margin-top: 20px;
+  margin-bottom: 20px; /* Ensure footer is spaced out on smaller screens */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .login-container {
-    padding: 15px 20px;
+    padding: 20px 25px; /* Adjust padding for smaller screens */
+    margin: 0 10px;
   }
+
   button {
-    max-width: none;
-    width: 100%;
+    max-width: 100%;
+    padding: 15px 20px; /* Slightly larger buttons */
+  }
+
+  input {
+    padding: 14px; /* Larger inputs */
+    font-size: 1.1rem; /* Larger font size */
+  }
+
+  #premisubs-link {
+    font-size: 1.5rem; /* Make the PREMISUBS link font size a bit larger */
+  }
+
+  footer {
+    font-size: 16px; /* Larger footer text */
+  }
+
+  .signup a {
+    font-size: 16px; /* Larger text for sign-up link */
+  }
+
+  .services-container p {
+    font-size: 18px; /* Larger services link text */
   }
 }
