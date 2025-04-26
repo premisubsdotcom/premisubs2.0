@@ -61,7 +61,7 @@ const createJoinButtons = () => {
   return [
     { text: 'Join Channel 1', url: 'https://t.me/+XY-47U_k6Ks0MWY1' },
     { text: 'Join Channel 2', url: 'https://t.me/+fM4A8zBxpDgxNmQ1' },
-    { text: 'Join Channel 3', url: 'https://t.me/+eR9t_A_AbvowM2Rl' },
+    { text: 'Join Channel 3', url: 'https://t.me/+srv4Hheq0Y00NTQ1' },
     { text: 'Join Channel 4', url: 'https://t.me/+LzG6N6PaAkMwODVl' },
     { text: '→ Join in all channels at once', url: 'https://t.me/addlist/M_TGE3W-xMQ0MmNl' }
   ];
@@ -99,7 +99,7 @@ const checkMembership = (chatId, callback) => {
 const channels = [
   -1002512938856, // Channel 1
   -1002661090015, // Channel 2
-  -1002195732578, // Channel 3
+  -1002266460123, // Channel 3
   -1002403206209  // Channel 4
 ];
 
