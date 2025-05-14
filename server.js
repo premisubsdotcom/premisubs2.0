@@ -99,7 +99,7 @@ const checkMembership = (chatId, callback) => {
 const channels = [
   -1002512938856, // Channel 1
   -1002661090015, // Channel 2
-  -1002551200861, // Channel 3
+  -1002335860015, // Channel 3
   -1002403206209  // Channel 4
 ];
 
