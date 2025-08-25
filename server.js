@@ -63,7 +63,7 @@ const createJoinButtons = () => {
     { text: 'Join Channel 2', url: 'https://t.me/+D6Gzmr63ze83NGQ0' },
     { text: 'Join Channel 3', url: 'https://t.me/+golZQ1qtMDQ1YmI1' },
     { text: 'Join Channel 4', url: 'https://t.me/+LzG6N6PaAkMwODVl' },
-    { text: '→ Join in all channels at once', url: 'https://t.me/addlist/cowhVY-RlQUxNDQ1' }
+    { text: '→ Join in all channels at once', url: 'https://t.me/addlist/fUclUamlJCg2Yzdk' }
   ];
 };
 
