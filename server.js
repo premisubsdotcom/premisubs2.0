@@ -59,11 +59,11 @@ const sessionStore = {};
 
 const createJoinButtons = () => {
   return [
-    { text: 'Join Channel 1', url: 'https://t.me/+F9ZHqfCbPOc4Zjdk' },
+    { text: 'Join Channel 1', url: 'https://t.me/+cRgDmIIuIh9jZmE0' },
     { text: 'Join Channel 2', url: 'https://t.me/+D6Gzmr63ze83NGQ0' },
     { text: 'Join Channel 3', url: 'https://t.me/+HqdMCajprY45NDNl' },
     { text: 'Join Channel 4', url: 'https://t.me/+LzG6N6PaAkMwODVl' },
-    { text: '→ Join in all channels at once', url: 'https://t.me/addlist/fUclUamlJCg2Yzdk' }
+    { text: '→ Join in all channels at once', url: 'https://t.me/addlist/Y5nesFXz2wllNGI0' }
   ];
 };
 
@@ -97,7 +97,7 @@ const checkMembership = (chatId, callback) => {
 
 // Channel chat IDs to check membership (replace these with actual channel IDs)
 const channels = [
-  -1003081799507, // Channel 1
+  -1002965860076, // Channel 1
   -1003058488028, // Channel 2
   -1002661090015, // Channel 3
   -1002403206209  // Channel 4
