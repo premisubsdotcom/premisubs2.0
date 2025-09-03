@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="367087"></script>
+  <script src="session.js"></script> <!-- Load session check script -->
+  <style>
+    /* Theme & layout */
+    :root {
+      --seconds: 45;
+      --size: 120px;
+      --track: #e6e6e6;
+      --accent: #3498db;
+      --bg: #f0f0f0;
+      --text: #222;
+      --muted: #666;
+      --warn: #b35c00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* Card */
+    #loading {
+      text-align: center;
+      display: grid;
+      gap: 14px;
+      place-items: center;
+      padding: 24px 28px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      min-width: 280px;
+    }
+
+    /* Countdown ring */
+    .ring {
+      width: var(--size);
+      height: var(--size);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      position: relative;
+      background:
+        conic-gradient(var(--accent) calc(var(--progress, 0) * 1deg), var(--track) 0);
+      transition: background 0.25s linear;
+    }
+    .ring::before {
+      content: "";
+      position: absolute;
+      inset: 8px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.04);
+    }
+    .ring-content {
+      position: relative;
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      font-size: 28px;
+    }
+    .subtext {
+      margin-top: -4px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Animated dots */
+    .dots {
+      display: inline-flex;
+      gap: 3px;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+    .dots span {
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+      opacity: 0.35;
+      animation: dot 1.2s infinite ease-in-out;
+    }
+    .dots span:nth-child(2) { animation-delay: .2s; }
+    .dots span:nth-child(3) { animation-delay: .4s; }
+    @keyframes dot {
+      0%, 80%, 100% { transform: translateY(0); opacity: .35; }
+      40% { transform: translateY(-3px); opacity: 1; }
+    }
+
+    /* Pause badge */
+    .paused-badge {
+      display: none;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 999px;
+      background: #fff2e0;
+      color: var(--warn);
+      border: 1px solid #ffd9a6;
+    }
+    .paused .paused-badge { display: inline-block; }
+    .paused #statusLineText { display: none; }
+
+    /* Spinner shown only during actual fetch */
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid var(--accent);
+      border-radius: 50%;
+      width: 60px; height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 10px;
+      display: none;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Hidden JSON container (kept invisible as requested) */
+    #jsonDisplay {
+      opacity: 0;
+      pointer-events: none;
+      user-select: none;
+      white-space: pre-wrap;
+    }
+
+    .hide { display: none !important; }
+  </style>
+</head>
+<body>
+  <div data-banner-id="6089146"></div>
+
+  <!-- Countdown / Loading card -->
+  <div id="loading" aria-live="polite">
+    <div class="ring" id="ring" style="--progress: 0;">
+      <div class="ring-content" id="secondsText">45</div>
+    </div>
+    <div id="statusLine">
+      <span id="statusLineText">
+        Account will login in <strong id="secondsLabel">45</strong> seconds
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </span>
+      <span class="paused-badge" id="pausedBadge">Paused</span>
+    </div>
+    <div class="subtext">Please keep this tab open. Don't switch the tab.</div>
+
+    <!-- Only shown during the network fetch -->
+    <div class="spinner" id="spinner"></div>
+    <p id="fetchingText" class="hide">Fetching…</p>
+  </div>
+
+  <!-- Hidden container for JSON data -->
+  <pre id="jsonDisplay"></pre>
+
+  <script>
+    // ---------- utilities ----------
+    const log = (...args) => console.log("[countdown/fetch]", ...args);
+    const showError = (msg) => {
+      try {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('jsonDisplay').innerText = msg;
+      } catch(_) {}
+    };
+
+    // ---------- countdown + fetch (with pause on tab switch) ----------
+    const TOTAL_SECONDS = 45;
+    let remaining = TOTAL_SECONDS;
+    let tickId = null;
+    let countdownStarted = false;
+    let fetchingStarted = false;
+    let paused = false;
+
+    const ring = document.getElementById('ring');
+    const secondsText = document.getElementById('secondsText');
+    const secondsLabel = document.getElementById('secondsLabel');
+    const spinner = document.getElementById('spinner');
+    const fetchingText = document.getElementById('fetchingText');
+    const statusLine = document.getElementById('statusLine');
+    const pausedBadge = document.getElementById('pausedBadge');
+
+    function updateRingProgress(rem) {
+      const progressDeg = ((TOTAL_SECONDS - rem) / TOTAL_SECONDS) * 360;
+      ring.style.setProperty('--progress', progressDeg);
+    }
+
+    function updateSeconds() {
+      secondsText.textContent = remaining;
+      secondsLabel.textContent = remaining;
+      updateRingProgress(remaining);
+    }
+
+    function startTick() {
+      if (tickId || remaining <= 0 || fetchingStarted) return;
+      tickId = setInterval(() => {
+        remaining -= 1;
+        if (remaining < 0) remaining = 0;
+        updateSeconds();
+
+        if (remaining === 0) {
+          pauseCountdown(); // clears interval
+          triggerFetch();   // begin the original fetch chain
+        }
+      }, 1000);
+    }
+
+    function pauseCountdown() {
+      if (tickId) {
+        clearInterval(tickId);
+        tickId = null;
+      }
+    }
+
+    function setPausedUI(on) {
+      paused = on;
+      statusLine.classList.toggle('paused', on);
+    }
+
+    function handlePause() {
+      if (!countdownStarted || fetchingStarted) return;
+      pauseCountdown();
+      setPausedUI(true);
+      log("Paused.");
+    }
+
+    function handleResume() {
+      if (!countdownStarted || fetchingStarted || remaining <= 0) return;
+      setPausedUI(false);
+      startTick();
+      log("Resumed.");
+    }
+
+    function startCountdownThenFetch() {
+      countdownStarted = true;
+      updateSeconds();
+      startTick();
+
+      // Pause when tab becomes hidden or window loses focus
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) handlePause();
+        else handleResume();
+      });
+
+      window.addEventListener('blur', handlePause);
+      window.addEventListener('focus', handleResume);
+    }
+
+    function triggerFetch() {
+      if (fetchingStarted) return;
+      fetchingStarted = true;
+
+      // switch UI to "fetching..."
+      ring.classList.add('hide');
+      document.getElementById('statusLine').classList.add('hide');
+      fetchingText.classList.remove('hide');
+      spinner.style.display = 'block';
+
+      log("Starting fetch chain…");
+
+      // --------------- ORIGINAL FETCH LOGIC (unchanged) ---------------
+      fetch('https://net2dotcom.github.io/index/chat/chat1.html')
+        .then(response => response.text())
+        .then(html => {
+          // Extract JSON links using regex
+          const regex = /https:\/\/premisubsdotcom\.vercel\.app\/accs\/[^"]+\.json/g;
+          const matches = html.match(regex);
+
+          if (matches && matches.length > 0) {
+            const randomUrl = matches[Math.floor(Math.random() * matches.length)];
+            log("Picked JSON URL:", randomUrl);
+
+            // Fetch the JSON from the randomly selected URL
+            return fetch(randomUrl)
+              .then(response => response.json())
+              .then(data => {
+                // Hide the loading animation
+                document.getElementById('loading').style.display = 'none';
+                // Store JSON in the hidden div
+                document.getElementById('jsonDisplay').innerText = JSON.stringify(data, null, 2);
+                log("JSON stored to #jsonDisplay");
+              });
+          } else {
+            throw new Error("No JSON URL found.");
+          }
+        })
+        .catch(error => {
+          document.getElementById('loading').style.display = 'none';
+          document.getElementById('jsonDisplay').innerText = "Can't fetch JSON: " + error;
+          log("Error:", error);
+        });
+      // --------------- END ORIGINAL FETCH LOGIC ---------------
+    }
+
+    // ---------- single session gate ----------
+    (function init() {
+      // If ensureSession is missing/throws, proceed so you can still debug the fetch chain.
+      const safeEnsure = (typeof ensureSession === 'function')
+        ? ensureSession
+        : () => (console.warn("ensureSession() missing; proceeding without it."), Promise.resolve(true));
+
+      safeEnsure().then((valid) => {
+        if (!valid) {
+          showError("Session invalid. Fetch aborted.");
+          return;
+        }
+        startCountdownThenFetch();
+      }).catch((err) => {
+        console.error("ensureSession() failed:", err);
+        // Continue anyway so you can see concrete errors from the fetch chain
+        startCountdownThenFetch();
+      });
+    })();
+  </script>
+
+  <!-- Hidden container for JSON data -->
+  <pre id="jsonDisplay"></pre>
+</body>
+</html>
