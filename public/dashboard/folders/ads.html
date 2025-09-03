@@ -8,7 +8,7 @@
   <style>
     /* Theme & layout */
     :root {
-      --seconds: 45;
+      --seconds: 35;
       --size: 120px;
       --track: #e6e6e6;
       --accent: #3498db;
@@ -138,11 +138,11 @@
   <!-- Countdown / Loading card -->
   <div id="loading" aria-live="polite">
     <div class="ring" id="ring" style="--progress: 0;">
-      <div class="ring-content" id="secondsText">45</div>
+      <div class="ring-content" id="secondsText">35</div>
     </div>
     <div id="statusLine">
       <span id="statusLineText">
-        Account will login in <strong id="secondsLabel">45</strong> seconds
+        Account will login in <strong id="secondsLabel">35</strong> seconds
         <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
       </span>
       <span class="paused-badge" id="pausedBadge">Paused</span>
@@ -151,7 +151,7 @@
 
     <!-- Only shown during the network fetch -->
     <div class="spinner" id="spinner"></div>
-    <p id="fetchingText" class="hide">Fetching…</p>
+    <p id="fetchingText" class="hide">Loading</p>
   </div>
 
   <!-- Hidden container for JSON data -->
@@ -168,12 +168,11 @@
     };
 
     // ---------- countdown + fetch (with pause on tab switch) ----------
-    const TOTAL_SECONDS = 45;
+    const TOTAL_SECONDS = 35;
     let remaining = TOTAL_SECONDS;
     let tickId = null;
     let countdownStarted = false;
     let fetchingStarted = false;
-    let paused = false;
 
     const ring = document.getElementById('ring');
     const secondsText = document.getElementById('secondsText');
@@ -181,7 +180,6 @@
     const spinner = document.getElementById('spinner');
     const fetchingText = document.getElementById('fetchingText');
     const statusLine = document.getElementById('statusLine');
-    const pausedBadge = document.getElementById('pausedBadge');
 
     function updateRingProgress(rem) {
       const progressDeg = ((TOTAL_SECONDS - rem) / TOTAL_SECONDS) * 360;
@@ -216,7 +214,6 @@
     }
 
     function setPausedUI(on) {
-      paused = on;
       statusLine.classList.toggle('paused', on);
     }
 
@@ -315,8 +312,5 @@
       });
     })();
   </script>
-
-  <!-- Hidden container for JSON data -->
-  <pre id="jsonDisplay"></pre>
 </body>
 </html>
